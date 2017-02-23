@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>HXB Website</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexPC.css">
+    <link rel="stylesheet" href="css/index800.css">
+    <link rel="stylesheet" href="css/indexphone.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="overflow: scroll;overflow-x: hidden;">
+<!--进场遮罩-->
+<div id="mask"></div>
+<!--嵌入式头部-->
+<header id="header">
+    <div class="w">
+        <div class="bar-top">
+            <ul>
+                <li><i class="glyphicon glyphicon-headphones"></i></li>
+                <li><i class="glyphicon glyphicon-cloud"></i></li>
+                <li><i class="glyphicon glyphicon-pencil"></i></li>
+                <li><i class="glyphicon glyphicon-pencil"></i></li>
+                <li><i class="glyphicon glyphicon-pencil"></i></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <article class="bar-wrap">
+            <div class="des-wrap">
+                <div class="mine"></div>
+                <div class="des"><span>富贵必从勤苦得，男儿须读五车书</span></div>
+            </div>
+            <div class="bar-right">
+                <ul>
+                    <li class="active">
+                        <i class="glyphicon glyphicon-home"></i>
+                        <a href="javascript:;"><i class="glyphicon glyphicon-chevron-down"></i><span>首页</span></a>
+                    </li>
+                    <li><i class="glyphicon glyphicon-expand"></i><a href="../index.html"><span>个人简历</span></a></li>
+                </ul>
+                <select name="" class="select-menu" onchange="javascript:location.href=this.value;">
+                    <option value="1"><span>首页</span></option>
+                    <option value="../index.html"><span>个人简历</span></option>
+                </select>
+            </div>
+        </article>
+    </div>
+</header>
+<!--轮播图-->
+<section id="slider">
+    <!--轮播图片-->
+    <ul class="slider-img" id="slider_img">
+        <li data-image-lg="image/sliderbg4-1680x460.jpg" data-image-xs="image/sliderbg4-640x340.jpg"></li>
+        <li data-image-lg="image/sliderbg5-1680x460.jpg" data-image-xs="image/sliderbg5-640x340.png"></li>
+        <li data-image-lg="image/sliderbg6-1680x460.jpg" data-image-xs="image/sliderbg6-640x340.jpg"></li>
+    </ul>
+    <!--轮播图中文字-->
+    <div class="textContent" id="textContent">
+        <ul>
+            <li>
+                <div class="text1"><span>前端艺术</span><br><span>不断创新</span></div>
+                <span>artistic originality</span>
+            </li>
+            <li>
+                <div class="text1"><span>前端</span><br><span>不断创</span></div>
+                <span>artistic originality</span>
+            </li>
+            <li>
+                <div class="text1"><span>艺术</span><br><span>不新</span></div>
+                <span>artistic originality</span>
+            </li>
+        </ul>
+    </div>
+    <!--轮播小点-->
+    <ul class="slider-circle" id="slider_circle">
+
+    </ul>
+    <!--轮播左右按钮-->
+    <a class="left carousel-control" id="prev" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">上一页</span>
+    </a>
+    <a class="right carousel-control" id="next" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">下一页</span>
+    </a>
+</section>
+<!--技能展示区-->
+<section id="skill">
+    <div class="w">
+        <div class="skill-text">
+            <img src="image/skill.png" alt="">
+        </div>
+    </div>
+</section>
+<!--工作经验-->
+<section id="experience">
+    <div class="w">
+        <div class="experience-text">
+            <img src="image/experience.png" alt="">
+        </div>
+        <div class="experience-content-wrap">
+            <div class="content-left" id="content_left">
+                    <span>
+                        <i  class="active">接触前端</i>
+                        <i>入门前端</i>
+                    </span>
+            </div>
+            <div class="content-center">
+                <ul id="content_center_ul">
+                    <li class="active">一</li>
+                    <li>二</li>
+                </ul>
+            </div>
+            <div class="content-right" id="content_right"></div>
+        </div>
+        <input type="hidden" id="last" value="0">
+    </div>
+</section>
+<!--底部-->
+<footer id="footer">
+    <!--评论区-->
+    <div class="w">
+        <ul id="contentList">
+            <li class="comment">
+                <div class="left"><img src="image/g1.jpg"></div>
+                <div class="right">
+                    <div>一篇工作总结</div>
+                    <div>上述知情人士透露，目前业内一些公司准备了专门的名单从</div>
+                </div>
+            </li>
+            <li class="comment">
+                <div class="left"><img src="image/g2.jpg"></div>
+                <div class="right">
+                    <div>一篇工作总结</div>
+                    <div>上述知情人士透露，目前业内一些公司准备了专门的运营决策的自主权。</div>
+                </div>
+            </li>
+        </ul>
+        <div id="more">加载更多...</div>
+    </div>
+</footer>
+<!--图片遮罩层-->
+<div id="img_mask">
+
+</div>
+
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+</html>

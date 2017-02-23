@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+@media (max-width: 650px) {
+    body {
+        background:#f2f2f2;
+    }
+    /*头部*/
+    .bar-top > ul {
+        padding-left: 25%;
+    }
+
+    .bar-wrap {
+        background: url("../image/headerbg.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .bar-wrap > .des-wrap > .mine {
+        margin-left:38%;
+    }
+
+    .bar-wrap > .des-wrap > .des {
+        font-size: 17px;
+    }
+
+    /*轮播图*/
+    #slider > .textContent > ul > li > .text1 {
+        width: 350px;
+    }
+
+
+    /*技能区域*/
+    #skill .skill-text > img {
+        width: 200px;
+        height: 20px;
+    }
+
+    #skill .skill-panel {
+        display: inline-block;
+        width: 100%;
+        height: 130px;
+        position: relative;
+        padding: 1em;
+        margin: 5px 2px;
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        /*overflow: hidden;*/
+    }
+
+    /*经验区域*/
+
+    #experience .experience-text > img{
+        width: 310px;
+        height: 20px;
+    }
+
+    #experience .content-center > ul > li {
+        height: 26px;
+        line-height:26px;
+    }
+
+    #experience .experience-content-wrap {
+        height: 250px;
+    }
+
+    #experience .experience-content-wrap > .content-right > div > img {
+        width: 170px;
+        height: 85px;
+    }
+
+}
