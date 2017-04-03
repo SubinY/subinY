@@ -1,384 +1,449 @@
-﻿<!doctype html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="keywords" content="web前端，web前端个人简历，前端开发" />
-    <meta name="description" content="胡秀彬个人简历">
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/jquery.fullpage.css" />
-	<link rel="stylesheet" href="css/component.css" />
-	<link rel="stylesheet" href="css/index.css" />
-	<title>胡秀彬个人简历</title>
+    <meta charset="UTF-8">
+    <title>胡秀彬前端工程师</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="description" content="前端工程师，个人简历"/>
+    <meta name="author" content="胡秀彬 subinHu age:24 "/>
+    <meta name="keywords" content="求职 前端"/>
+    <meta name="contact" content="tel 18576552310 e-mail:subin_hu@163.com"/>
+
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+
+    <!--lib css-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/jquery.fullPage.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--personal css-->
+    <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
-<div id="div_in"><a href="my%20website/index.html">个人网站入口</a></div>
-<!-- header navigation -->
-<header>
-	<div id="logo">
-		<div id="header_img"><img src="picture/logo.jpg" alt="" /></div>
-		<div id="header_p">
-			<p id="header_p1">胡秀彬</p>
-			<p id="header_p2">个人简历</p>
-		</div>
-	</div>
-	<nav>
-		<ul>
-			<li><a href="">首页</a></li>
-			<li><a href="">随笔</a></li>
-			<li><a href="">积淀</a></li>
-			<li><a href="">关于</a></li>
-		</ul>
-	</nav>
-</header>
-<!-- header navigation end -->
-<!-- aside navigation -->
-<aside>
-		<a href="#page1"><b>首页</b></a>
-		<a href="#page2"><b>关于我</b></a>
-		<a href="#page3"><b>专业技能</b></a>
-		<a href="#page4"><b>我的经历</b></a>
-		<!--<a href="#page5"><b>我的作品</b></a>-->
-		<a href="#page5"><b>联系我</b></a>
-</aside>
-<!-- aside navigation end -->
-<!-- home page -->
-<div id="dowebok">
-	<!-- home -->
-	<div class="section one">
-		<div id="home">
-			<div id="home_content">
-				<div id="home_head">
-					<div id="home_head_content">
-						<img src="picture/mine.jpg" id="home_photo1" alt="" />
-						<!--<img src="picture/photo2.jpg" id="home_photo2" alt="" />-->
-					</div>
-				</div>
-				<div id="home_info">
-					<p id="home_info1">富贵必从勤苦得，男儿须读五车书</p>
-					<div id="home_info_box">
-						<p id="home_info2">我叫胡秀彬</p>
-						<p id="home_info3">23岁</p>
-						<p id="home_info4">一名渴望步入前端行业的求职者</p>
-						<p id="home_info5">490101299@qq.com</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- home end -->
-	<!-- about -->
-	<div class="section two">
-		<div id="about">
-			<div id="about_content">
-				<div class="title">
-					<h1>关于我</h1>
-				</div>
-				<div id="about_list_content">
-					<div class="about_list" id="about_list1">
-						<div class="about_list_eg" id="about_en_edu">education</div>
-						<div class="about_list_cn" id="about_cn_edu">学历<p>本科</p></div>
-					</div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_age">age</div>
-                        <div class="about_list_cn" id="about_cn_age">年龄<p>23岁</p></div>
+<!--导航栏-->
+<nav class="navbar navbar-default resume">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand EngName" data-menuanchor="page1" href="#page1">Subin Hu</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" id="menu">
+                <li data-menuanchor="page2" class="active">
+                    <a href="#page2">基本资料</a>
+                </li>
+                <li data-menuanchor="page3">
+                    <a href="#page3">专业技能</a>
+                </li>
+                <li data-menuanchor="page4">
+                    <a href="#page4">工作经历</a>
+                </li>
+                <li data-menuanchor="page5">
+                    <a href="#page5">项目经验</a>
+                </li>
+                <li data-menuanchor="page6">
+                    <a href="#page6">自我评价</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="guns sky">
+    <div class="clouds_one"></div>
+    <div class="clouds_two"></div>
+    <div class="clouds_three"></div>
+</div>
+<div class="pure">
+
+</div>
+<div id="resume">
+    <div class="section item-1">
+        <div class="row word">
+            <span class="resume-hide">胡秀彬</span>
+            <span class="resume-hide">前端工程师</span>
+            <span class="hidden-xs resume-hide">简历</span>
+            <span class="col-xs-12 hidden-sm hidden-md hidden-lg resume-hide">简历</span>
+
+            <p class="motto resume-hide hinge-sty" style="position: relative">关键字: 前端 运动 音乐</p>
+            <a href="#" class="next-page ">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </a>
+        </div>
+
+        <div class="corner1 corner">
+            <img src="images/page_home/1.png" alt=""/>
+        </div>
+        <div class="corner2 corner">
+            <img src="images/page_home/2.png" alt=""/>
+        </div>
+        <div class="corner3 corner">
+            <img src="images/page_home/3.png" alt=""/>
+        </div>
+        <div class="corner4 corner">
+            <img src="images/page_home/4.png" alt=""/>
+        </div>
+
+    </div>
+    <div class="section item-2">
+        <div class="container">
+            <h class='hidden-xs hidden-sm page2-title'>基本资料</h>
+            <div class="row">
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="images/page-2/glass.png" alt="">
+                    <h4>基本信息</h4>
+                    <p>
+                        姓名: 胡秀彬 男
+                        <br>
+                        年龄: 24岁 籍贯：广东
+                    </p>
+                </div>
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="images/page-2/hat.png" alt="">
+                    <h4>毕业院校</h4>
+                    <p>
+                        北京理工大学珠海学院
+                    </p>
+
+                </div>
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="images/page-2/book.png" alt="">
+                    <h4>学历和专业</h4>
+                    <p>
+                        计算机科学与技术 本科
+                        <br>
+                        专业技能 编程
+                    </p>
+                </div>
+                <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
+                    <img src="images/page-2/tel.png" alt="">
+                    <h4>联系方式</h4>
+                    <p>
+                        邮箱 subin_hu@163.com
+                        <br>
+                        电话18576552310
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section item-3">
+        <div class="container">
+            <div class="img-3 hidden-xs">
+                <img src="images/page-3/5(2).png" alt="">
+            </div>
+            <div class="bg-img hidden-xs hidden-sm">
+                <img src="images/page-3/1(4).png" alt="">
+            </div>
+            <div class="sm-img fly hidden-xs hidden-sm">
+                <img src="images/page-3/2(3).png" alt="">
+            </div>
+
+
+            <div class="skill-introduce">
+                <div class="media">
+                    <div class="media-left media-top">
+                        <a href="#" class=''>
+                            <img class="media-object" src="images/page-3/tv8.png" alt="">
+                        </a>
                     </div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_loc">location</div>
-                        <div class="about_list_cn" id="about_cn_loc">坐标<p>佛山</p></div>
+                    <div class="media-body">
+                        <h4 class="media-heading">PC端</h4>
+                        <p>
+                            熟练使用 Html5 Css3 JavaScript，能够合理完成web端或者移动端页面的编写和维护，<br>
+                            思路清晰，结构完整，易于维护和持久化开发，能处理主流浏览器兼容问题。
+                            熟练使用原生js, 了解js面向对象原理，闭包以及原型结构，能够合理利用面向对象以及模块化开发,并且能适当完成框架封装。熟练使用 jQuery，理解jQ底层原理，并能完成相关项目。
+                            <br>熟悉animate fullpage mousewheel jquery-ui  lazyload parallax等实用插件的应用,轮播图，tab栏，瀑布流，延迟加载，全屏滚动等等常用功能的实现
+                            <br>深刻理解 Ajax交互原理，根据后台接口能够合理完成前后台交互，数据的增删改查
+
+
+
+                        </p>
+
                     </div>
-                    <div class="about_list">
-                        <div class="about_list_eg" id="about_en_sta">status</div>
-                        <div class="about_list_cn" id="about_cn_sta">状态<p>待业</p></div>
+                </div>
+                <div class="media ">
+                    <div class="media-left media-top">
+                        <a href="#" class=''>
+                            <img class="media-object" src="images/page-3/apple6.png" alt="">
+                        </a>
                     </div>
-				</div>
-				<div id="about_info"></div>
-			</div>
-		</div>
-	</div>
-    <!-- about end -->
-    <!-- skill -->
-    <div class="section three">
-		<div id="skill">
-			<div id="skill_content">
-				<div class="title">
-					<h1>专业技能</h1>
-				</div>
-				<div id="skill_info"></div>
-                <div id="skill_list">
-                    <!--<div class="skill_list_content" id="skill_list1">-->
-                        <!--<div class="skill_icon" id="skill_icon1"></div>-->
-                        <!--<div class="skill_name">AngularJs</div>-->
-                        <!--<div class="skill_flag"></div>-->
-                        <!--<div class="skill_int" id="skill_int1"></div>-->
-                    <!--</div>-->
-                    <div class="skill_list_content" id="skill_list2">
-                        <div class="skill_icon" id="skill_icon2"></div>
-                        <div class="skill_name">HTML</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int2"></div>
+                    <div class="media-body">
+                        <h4 class="media-heading">移动端</h4>
+                        <p>熟练使用zepto.js，swiper等移动框架进行移动页面的开发
+                            <br>掌握 hybrid模式开发移动端app，运用react-native框架开发改进iOS、Android等机型
+                        <br />的客户端app。完成页面的基本布局、页面实现、与假数据交互、app打包等工作
+                        </p>
+
                     </div>
-                    <div class="skill_list_content" id="skill_list3">
-                        <div class="skill_icon" id="skill_icon3"></div>
-                        <div class="skill_name">CSS</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int3"></div>
+                </div>
+                <div class="media ">
+                    <div class="media-left media-top">
+                        <a href="#" class=''>
+                            <img class="media-object" src="images/page-3/baterry10.png" alt="">
+                        </a>
                     </div>
-                    <div class="skill_list_content" id="skill_list4">
-                        <div class="skill_icon" id="skill_icon4"></div>
-                        <div class="skill_name">JavaScript</div>
-                        <div class="skill_flag"></div>
-                        <div class="skill_int" id="skill_int4"></div>
+                    <div class="media-body">
+                        <h4 class="media-heading">其他</h4>
+                        <p>熟悉使用 angular1.0 框架，可以完成路由控制的单页面应用
+                            <br>了解Node.js 的工作原理，mongdb数据库，node框架express以及pug模板引擎
+                        </p>
                     </div>
                 </div>
             </div>
+
+            <div class="skills hidden-xs">
+                <span class="subject-9">Zepto</span>
+                <span class="subject-2">Bootstrap</span>
+                <span class="subject-3">CANVAS</span>
+                <span class="subject-4">jQuery</span>
+                <span class="subject-10">Angular</span>
+                <span class="subject-5">移动端</span>
+                <span class="subject-6">CSS3</span>
+                <span class="subject-7">响应式</span>
+                <span class="subject-8">Nodejs</span>
+                <span class="subject-1">HTML5</span>
+            </div>
         </div>
     </div>
-    <!-- skill end -->
-    <!-- experience -->
-    <div class="section four">
-    	<div id="exp">
-        	<div id="exp_content">
-        		<div class="title">
-                	<h1>我的经历</h1>
+    <div class="section item-4" id='item-4'>
+        <div class="container">
+            <span class='title hidden-xs  hidden-sm' style='display: inline-block'>个人经历</span>
+            <span class='sign col-xs-12 hidden-xs  hidden-sm' style='font-size: 20px'>半完美主义者</span>
+            <div class="row">
+                <div class="col-xs-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/page-4/school.jpg" class=' img-circle team-img' alt="">
+                        <div class="caption">
+                            <h3>北京理工大学珠海学院</h3>
+                            <p>计算机科学与技术</p>
+                            <p>物联网方向，底层驱动开发</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="exp_info" class="exp_scale"></div>
-                <div id="exp_list_slider">
-                	<div id="exp_list_slider_content" class="exp_scale">
-                        <div id="exp_list_content">
-                            <div class="exp_list">
-                                <div class="exp_list_left">
-                               		<div id="exp_list_left1">
-                                        <dl>
-                                            <dt>佛山东阳汽车零部件有限公司</dt>
-                                            <dd class="exp_list_time">2015年7月~2015年9月</dd>
-                                            <dd>网管中心</dd>
-                                            <dd>负责与网络，采购软件方面有关的操作</dd>
-                                            <dd>负责搭建未推出的网站前后台程序</dd>
-                                            <dd>同期工作之余开始<a href="#" class="md-trigger" data-modal="modal-2">自学web前端各项技术</a></dd>
-                                        </dl>
-                                    </div>
-                                </div>
-                        	</div>
-                        	<div class="exp_list">
-                                <div class="exp_list_left">
-                                	<div id="exp_list_left2">
-                                        <dl>
-                                            <dt>佛山市三水区总工会</dt>
-                                            <dd class="exp_list_time">2015年9月~2016年6月</dd>
-                                            <dd>组织宣传部</dd>
-                                            <dd>负责本地职工的各项娱乐活动开展</dd>
-                                            <dd>利用微信等新媒体去编写宣传信息</dd>
-                                            <dd>在这段时间，前端学习中断</dd>
-                                        </dl>
-                                    </div>
-                            	</div>
-                        	</div>
-                            <div class="exp_list">
-                                <div class="exp_list_left">
-                                    <div id="exp_list_left3">
-                                        <dl>
-                                            <dt>静心学习</dt>
-                                            <dd class="exp_list_time">2016年6月~现在</dd>
-                                            <dd>本地计算机</dd>
-                                            <dd>负责学习并扎实前端相关的各种必备技能</dd>
-                                            <dd>为了能应对前端界的各种工作，把美工所需的工具也一并学习</dd>
-                                        </dl>
-                                    </div>
+                <div class="col-xs-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/page-4/lingke.jpg" class='img-circle team-img' alt="">
+                        <div class="caption">
+                            <h3>聆科网络技术有限公司</h3>
+                            <p>前端开发</p>
+                            <p>微信H5页面开发，协助完成部分响应式网站</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/page-4/diliugan.jpg" class='img-circle team-img' alt="">
+                        <div class="caption">
+                            <h3>第六感传媒有限公司</h3>
+                            <p>前端工程师</p>
+                            <p>H5页面开发，关注用户体验，提高代码复用性及可维护性</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section item-5">
+        <!--第一屏-->
+        <div class="slide hidden-xs">
+            <div class="container" id='container-img'>
+                <div class="row">
+                    <div class="portfolio-items">
+                        <div class="col-sm-6 col-md-3 col-lg-3 web">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='#' target='_blank' title="智能家居"></a>智能家居</h4>
+                                        <small>技术：html+css+js</small>
+                                        <i class="fa fa-search"></i></div>
+                                    <img src="img/01.jpg" class="img-responsive" alt="智能家居">
                                 </div>
                             </div>
                         </div>
-                    <div id="exp_list_to">
-                    	<div id="exp_list_toleft"><img src="picture/exp_list_toleft.png" /></div>
-                    	<div id="exp_list_toright"><img src="picture/exp_list_toright.png" /></div>
-                    </div>
-                    </div>
-                    <div id="exp_timeline" class="exp_scale">
-                    	<div>
-                            <a href="#" title="2015年7月~2015年9月"></a>
-                            <a href="#" title="2015年9月~2016年6月"></a>
-                            <a href="#" title="2016年6月~现在"></a>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="http://www.nahotel.com.cn" target='_blank' title="汇星酒店">汇星酒店</a></h4>
+                                        <small>技术：html+css+JQuery</small>
+                                    </div>
+                                    <img src="img/02huixing.png" class="img-responsive" alt="汇星酒店"></div>
+                            </div>
                         </div>
-                    </div>             
-                </div>
-            </div>
-        </div>
-    </div> 
-    <!-- experience end -->
-    <!-- demo -->
-    <!--<div class="section five">-->
-    	<!--<div id="demo">-->
-        	<!--<div id="demo_content">-->
-            	<!--<div class="title">-->
-                	<!--<h1>我的作品</h1>-->
-                <!--</div>-->
-                <!--<div id="demo_content_list">-->
-                    <!--<ul class="demo_box">-->
-                    	<!--<li class="demo_scale">-->
-                            <!--<div class="demo_box_content">-->
-                            	<!--<div class="demo_box_hover">-->
-                                    <!--<p class="demo_box_title">DEMO:DOM编程艺术</p>-->
-                                    <!--<span class="demo_box_hover_icon">-->
-                                        <!--<a href="demo/js原生demo/index.html" target="_blank" class="demo_box_link">-->
-                                            <!--<img src="picture/demo-link.png" alt="" />-->
-                                        <!--</a>-->
-                                    <!--</span>-->
-                                <!--</div>-->
-                                <!--<img src="picture/demo_box1.jpg" alt="" class="demo_box_bg"/>-->
-                            <!--</div>-->
-                        <!--</li>-->
-                        <!--<li class="demo_scale">-->
-                            <!--<div class="demo_box_content">-->
-                                <!--<div class="demo_box_hover">-->
-                                    <!--<p class="demo_box_title">乾程企业</p>-->
-									<!--<span class="demo_box_hover_icon">-->
-										<!--<a href="http://www.sctyqc.cn/index.html" target="_blank" class="demo_box_link">-->
-											<!--<img src="picture/demo-link.png" alt="" />-->
-										<!--</a>-->
-									<!--</span>-->
-								<!--</div>-->
-								<!--<img src="picture/demo_box2.jpg" alt="" class="demo_box_bg"/>-->
-							<!--</div>-->
-                        <!--</li>-->
-                        <!--&lt;!&ndash;<li class="demo_scale">&ndash;&gt;-->
-							<!--&lt;!&ndash;<div class="demo_box_content">&ndash;&gt;-->
-                            	<!--&lt;!&ndash;<div class="demo_box_hover">&ndash;&gt;-->
-									<!--&lt;!&ndash;<p class="demo_box_title">卓煌企业</p>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<span class="demo_box_hover_icon">&ndash;&gt;-->
-                                    	<!--&lt;!&ndash;<a href="http://www.sczhuohuang.com" target="_blank" class="demo_box_link">&ndash;&gt;-->
-											<!--&lt;!&ndash;<img src="picture/demo-link.png" alt="" />&ndash;&gt;-->
-                                        <!--&lt;!&ndash;</a>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;</span>&ndash;&gt;-->
-                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-								<!--&lt;!&ndash;<img src="picture/demo_box3.jpg" alt="" class="demo_box_bg"/>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</li>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<li class="demo_scale">&ndash;&gt;-->
-							<!--&lt;!&ndash;<div class="demo_box_content">&ndash;&gt;-->
-                            	<!--&lt;!&ndash;<div class="demo_box_hover">&ndash;&gt;-->
-                                	<!--&lt;!&ndash;<p class="demo_box_title">兰途科技</p>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<span class="demo_box_hover_icon">&ndash;&gt;-->
-                                    	<!--&lt;!&ndash;<a href="http://www.lantunet.com" target="_blank" class="demo_box_link">&ndash;&gt;-->
-											<!--&lt;!&ndash;<img src="picture/demo-link.png" alt="" />&ndash;&gt;-->
-                                        <!--&lt;!&ndash;</a>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;</span>&ndash;&gt;-->
-                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-								<!--&lt;!&ndash;<img src="picture/demo_box4.jpg" alt="" class="demo_box_bg"/>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</li>&ndash;&gt;-->
-                    <!--</ul>-->
-				<!--</div>-->
-                <!--&lt;!&ndash;<div id="demo_info" class="demo_scale">&ndash;&gt;-->
-                    <!--&lt;!&ndash;<p>这是我的部分demo。</p>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<p>更多demo请移步<a href="#" class="md-trigger" data-modal="modal-3">这里</a>。</p>&ndash;&gt;-->
-                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!-- demo end -->
-    <!-- contact -->
-	<div class="section six">
-		<div id="contact">
-			<div id="contact_content">
-				<div class="title">
-					<h1>联系我</h1>
-				</div>
-                <div id="contact_head">
-					<div id="contact_head1">灵感 代码 梦想 未来</div>
-                    <div id="contact_head2">
-                    	<span>inspiration</span>
-                        <span>code</span>
-                        <span>dream</span>
-                        <span>future</span>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="http://weihuishang.net/index.php?g=Mall&m=Index&a=index&token=b0ZtHNsAQxGggJxe&winzoom=1" target='_blank' title="进口水果平台">进口水果平台</a></h4>
+                                        <small>技术：html+css+ajax</small>
+                                    </div>
+                                    <img src="img/03shuiguo.png" class="img-responsive" alt="进口水果平台"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='http://xinchang.gzlinker.cn/index.php?g=Wap&m=Showpro&a=cats&token=tdvcwj1419320999&is_show=1' target='_blank' title="信昌机械"></a>信昌机械</h4>
+                                        <small>技术：angular+ajax</small>
+                                    </div>
+                                    <img src="img/04xinchang.png" class="img-responsive" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='javascript:;' target='_blank' title=""></a>高仿滚滚屏</h4>
+                                        <small>技术：html+css+jQuery</small>
+                                    </div>
+                                    <img src="img/05scrollpage.png" class="img-responsive" alt="高仿滚滚屏">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="javascript:;" target='_blank' title="D"></a>婚礼滑屏动画</h4>
+                                        <small>技术：zepto+swiper+animate.css</small>
+                                    </div>
+                                    <img src="img/06wedding.png" class="img-responsive" alt="婚礼滑屏动画"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href="javascript:;" target='_blank' title="畅读APP">畅读APP</a></h4>
+                                        <small>技术：react-native</small>
+                                    </div>
+                                    <img src="img/07changdu.png" class="img-responsive" alt="畅读APP"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+
+                                <div class="hover-bg">
+                                    <div class="hover-text">
+                                        <h4><a href='javascript:;' target='_blank' title="易果生鲜PC">易果生鲜PC </a></h4>
+                                        <small>技术：html+css+jQuery</small>
+                                    </div>
+                                    <img src="img/08yiguo.png" class="img-responsive" alt="易果生鲜PC">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="contact_info" class="contact_scale">
-                    <ul></ul>
-                </div>
-                <!--<div id="contact_way">-->
-					<!--<div id="contact_message1" class="contact_message contact_scale">follow me</div>-->
-                    <!--<div id="contact_form">-->
-                        <!--梦想成为前端工程师？<br/>-->
-                        <!--前端自学迷茫？<br/>-->
-                        <!--前端面试会问什么？<br/>-->
-                        <!--想学习该简历怎么制作？<br/><br/>-->
-                        <!--QQ小群：<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=959d5b7e9bab932c87cdd68372cfefd772293deaeceaba3e015ba35463200fe5">Fe.d小分队</a><br/><br/>-->
-                        <!--互相学习交流，共同进步O(∩_∩)O~-->
-                    <!--</div>-->
-                    <!--<div id="contact_message2" class="contact_message">谢谢</div>-->
-                <!--</div>-->
             </div>
-            <footer class="contact_scale">
-				<div class="contact_scale footer">
-                    <!--<a href="http://blog.csdn.net/zhcscs" target="_blank">CSDN</a>|-->
-                    <!--<a href="http://weibo.com/zky2013" target="_blank">微博</a>|-->
-                    <!--<a href="https://www.zhihu.com/people/fezky" target="_blank">知乎</a>|-->
-                    <!--<a href="https://segmentfault.com/u/keyu2016" target="_blank">豆瓣</a>|-->
-                    <!--<a href="https://github.com/zhaoky" target="_blank">Github</a>-->
-                </div>
-				<div class="contact_scale footer">Thank you to read the all</div>
-				<!--<div class="contact_scale footer"><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备15021330号</a>&nbsp;Copyright &copy; 2015 - 2016</div>-->
-			</footer>
         </div>
-	</div>
-    <!-- contact end -->
-</div>
-<!-- home page end -->
-<!-- pop layer -->
-<div class="md-modal md-effect-11" id="modal-1">
-	<div class="md-content">
-		<h3>小黄人O(∩_∩)O~</h3>
-		<div>
-			<img src="picture/minions.jpg" alt="" />
-			<button class="md-close">明白了</button>
-		</div>
-	</div>
-</div>
-<div class="md-modal md-effect-13" id="modal-2">
-	<div class="md-content">
-		<h3>学习路线</h3>
-		<div class="modal-learn">
-           	<p>学习用到的书籍</p>
-            <ul>
-                <li>《html5+css3基础教程（第七版）》</li>
-                <li>《css揭秘》</li>
-                <li>《JavaScript DOM编程艺术（第二版）》</li>
-                <li>《锋利的jQuery（第二版）》</li>
-                <li>《JavaScript高级程序设计（第三版）》</li>
-                <li>《JavaScript权威指南》</li>
-            </ul>
-			<button class="md-close">明白了</button>
-		</div>
-	</div>
-</div>
-<div class="md-modal md-effect-11" id="modal-3">
-    <div class="md-content">
-        <h3>移动APP：兰途校园</h3>
-        <div class="modal-example">
-            <p>已上线学校</p>
-            <ul>
-                <li><span><a href="https://app.cufe.edu.cn/" target="_blank">中央财经大学</a></span></li>
-                <li><span><a href="https://app.bjtu.edu.cn/getapp/" target="_blank">北京交通大学</a></span></li>
-                <li><span><a href="https://bhna.buaa.edu.cn/bhna/" target="_blank">北京航空航天大学</a></span></li>
-                <li><span><a href="https://app.nacta.edu.cn/" target="_blank">中国戏曲学院</a></span></li>
-                <li><span><a href="https://download.haust.edu.cn/haust/getApp/" target="_blank">河南科技大学</a></span></li>
-                <li><span><a href="http://app.bisu.edu.cn/" target="_blank">北京第二外国语大学</a></span></li>
-                <li><span><a href="http://app.swpu.edu.cn/" target="_blank">西南石油大学</a></span></li>
-            </ul>
-            <p>更多在建...</p>
-            <button class="md-close">明白了</button>
+        <!--第二屏-->
+        <div class="slide">
+            <div class="rotator">
+                <div id="rot1">
+                    <img src="" width="800" height="300" class="bg" alt=""/>
+                    <div class="heading">
+                        <h1></h1>
+                    </div>
+                    <div class="description">
+                        <p></p>
+                    </div>
+                </div>
+                <ul id="rotmenu">
+                    <li>
+                        <a href="#">Flappy Bird</a>
+                        <div style="display:none;">
+                            <div class="info_image">1.jpg</div>
+                            <div class="info_heading">Flappy Bird</div>
+                            <div class="info_description">
+                                通过面向对象封装方法，利用canvas绘制。
+                                手机可以玩。
+                                <br><a href="http://chenjichuan.cn/bird.html" target= _blank class="more">play</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">cart</a>
+                        <div style="display:none;">
+                            <div class="info_image">2.jpg</div>
+                            <div class="info_image">Add to cart</div>
+                            <div class="info_description">
+                                电商的添加到购物车模型，符合大部分电商场景
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Fall</a>
+                        <div style="display:none;">
+                            <div class="info_image">3.jpg</div>
+                            <div class="info_description">
+                               瀑布流布局，同时具备响应式，延迟加载等提高用户体验场景。
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">view</a>
+                        <div style="display:none;">
+                            <div class="info_image">4.jpg</div>
+                            <div class="info_heading">view</div>
+                            <div class="info_description">
+                                有趣儿的小东西，添加大图后可以实现全景浏览
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Full page</a>
+                        <div style="display:none;">
+                            <div class="info_image">5.jpg</div>
+                            <div class="info_description">
+                                主流的商家活动推广页面应用场景，全屏浏览同时，分页分屏展示。
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
         </div>
     </div>
-</div>
-<div class="md-overlay"></div>
-<!-- pop layer -->
+    <div class="section item-6">
+        <h1>Focus Me</h1>
+        <div class="word">
+        <p>
+            有责任，工作踏实，性格开朗乐观，积极上进。
+        </p>
+        </div>
+        <div class="word">
+            <p>
+               易和人相处，拥有良好的亲和力。<br>
+            </p>
+        </div>
+        <div class="word">
+            <p>
+                喜欢逻辑，热爱编程，喜欢钻研新的技术，</br>具有很强的自学能力和良好的学习方法，喜欢研究各种实用的框架。
+            </p>
+        </div>
+            <div class="top"></div>
+            <div class="foot"></div>
+        </div>
+    </div>
 </body>
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.fullpage.min.js"></script>
-<script src="js/classie.js"></script>
-<!--<script src="js/cssparser.js"></script>-->
-<script src="js/modaleffects.js"></script>
-<script src="js/index.js"></script>
-<!--<script src="php/message.php"></script>-->
 </html>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/jquery.fullPage.min.js"></script>
+<script src="lib/jquery.easing.1.3.js"></script>
+<script src="lib/jquery.isotope.js"></script>
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/handler.js"></script>
+<script src="js/resumeEnter.js"></script>
