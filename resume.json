@@ -1,0 +1,163 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": {
+    "src": "https://avatars.githubusercontent.com/u/33776415?v=4",
+    "hidden": true
+  },
+  "profile": {
+    "name": "胡秀彬",
+    "email": "subin_hu@163.com",
+    "mobile": "158********",
+    "github": "https://github.com/subinY",
+    "workExpYear": "6",
+    "workPlace": "广东广州",
+    "positionTitle": "前端工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2011.09", "2015.06"],
+      "school": "北京理工大学珠海学院",
+      "major": "计算机科学与技术",
+      "academic_degree": "本科",
+      "dataIndex": 0
+    }
+  ],
+  "awardList": [],
+  "workExpList": [
+    {
+      "company_name": "树根互联股份有限公司",
+      "department_name": "客户服务体系",
+      "work_time": ["2020.12", null],
+      "work_desc": "高级前端工程师。参与开发各种后台系统、小程序等项目，搭建团队脚手架工具及项目模板",
+      "dataIndex": 0
+    },
+    {
+      "company_name": "广州快乐种子科技有限公司",
+      "department_name": "营销中心",
+      "work_time": ["2020.05", "2020.12"],
+      "work_desc": "前端工程师。负责营销中⼼策略组后台管理系统，H5编辑器开发⼯作",
+      "dataIndex": 1
+    },
+    {
+      "company_name": "广州一智通供应链管理有限公司",
+      "department_name": "技术开发部",
+      "work_time": ["2017.04", "2019.12"],
+      "work_desc": "前端工程师。负责前端 Web和移动端（小程序、APP）开发、维护和迭代工作、编写公司组件库文档",
+      "dataIndex": 2
+    },
+    {
+      "work_time": ["2015.11", "2017.01"],
+      "company_name": "第六感传媒有限公司",
+      "department_name": "技术开发部",
+      "work_desc": "前端工程师。负责产品 HTML、CSS、JS的交互编写，解决移动端适配问题"
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "PC Web/小程序/APP",
+      "skill_desc": "熟练使用Taro、Typescript开发小程序、ReactNative开发APP",
+      "skill_level": 95,
+      "dataIndex": 0
+    },
+    {
+      "skill_name": "React/Vue/Angular",
+      "skill_level": 90,
+      "dataIndex": 1,
+      "skill_desc": "熟练使用相应技术栈配套库进行前端应用开发及脚手架搭建"
+    },
+    {
+      "skill_name": "前端工程化建设",
+      "skill_desc": "了解 devops 全过程，搭建产研团队devops平台",
+      "skill_level": 50,
+      "dataIndex": 2
+    },
+    {
+      "skill_name": "前端基建",
+      "skill_desc": "沉淀项目模板、组件、区块、页面，搭建跨技术栈的项目脚手架",
+      "skill_level": 60,
+      "dataIndex": 3
+    },
+    {
+      "skill_name": "服务器端",
+      "skill_desc": "熟悉使用expressjs搭建网站/CMS系统等",
+      "skill_level": 50,
+      "dataIndex": 4
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "即服务（React、Umi）",
+      "project_time": "2021.07 - 2022.03",
+      "project_desc": "即服务为工程器械租赁协同调度平台，解决商户、客户工程器械上中下游的匹配难、沟通难、价格不统一、机手派单、工期调度等等难题",
+      "project_content": "1. 使用模型思想搭建基于umi的repo项目，降低重复搬运工作，提高开发人员效率； 2. 前端生成合同PDF，解决后端因分页引起的样式问题",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "小嘿机租小程序（React、Taro）",
+      "project_time": "2021.12 - 2021.12",
+      "project_desc": "为即服务派生工具，提供司机端的工时打卡小程序，记录不同工程根据不同工作情况实时反馈",
+      "project_content": "1. 搭建Taro + taroify + typescript小程序工程，为团队其他小程序项目1的起步； 2. 通过mp-ci配合github action、webhook实现小程序CI，去除测试人员需要开发者工具才能调试的局面； 3. 封装日历月历滑动打卡组件、表格组件"
+    },
+    {
+      "project_name": "根云教育平台（Vue2）",
+      "project_time": "2020.12 - 2021.03",
+      "project_desc": "根云教育作为树根互联旗下工业互联网教育品牌，凭借对行业的深刻理解与认识，以根云平台为核心技术支撑，携手院校构建产教融合新生态，从开发专业课程、共建工业互联网专业，建设高水平实训基地再到打造工业互联网人才培育标杆的产业学院，为企业数字化转型升级发展输送专业人才。",
+      "project_content": "1. 从0到1搭建团队微前端框架，使用sub-module解决共享库问题，提高开发效率； 2. 参与数据大屏编辑器组件开发"
+    },
+    {
+      "project_name": "天璇系统（Vue2、NodeJs）",
+      "project_time": "2020.08 - 2021.11",
+      "project_desc": "解决业务团队频繁h5落地页业务需求，开发让业务快速组装属于⾃⼰的落地页⽽开发的组件编辑器及后台管理系统",
+      "project_content": "1. 完成各业务组件及事件模块抽离开发⼯作； 2. 开发 sdk 集成⼯具服务供各条项⽬线使用"
+    },
+    {
+      "project_name": "大数据平台（Angular、zorro、echart）",
+      "project_time": "2019.07 - 2019.12",
+      "project_desc": "充分挖掘和利用数据价值，通过数据场景化分析赋能业务，推动业务发现问题、解决问题，提升业务健康度，促进公司整体效率的提高",
+      "project_content": "1. 从 0 到 1 再到持续迭代，独立一人完成各个模块开发、echart 的二次开发等业务工作； 2. 配合后端，通过切片技术优化前端大数据报表导出； 3. 数据大屏的多端适配，解决4k屏字体不能自适应问题"
+    },
+    {
+      "project_name": "方米立电商小程序（Taro、Canvas）",
+      "project_time": "2018.12 - 2019.03",
+      "project_desc": "方米立电商小程序为了方便用户在线下单的分销系统，有添加商品加入购物车进行购买，退款流 程， 月提现等功能。降低了人工成本，实现线上一站式服务",
+      "project_content": "1. 从 0 到 1 开发 MVP 产品，实现登录、商品页、订单页、购物车等功能页面； 2. 制作适用于符合产品的微信登录工作流程图及小程序登录开发实践"
+    },
+    {
+      "project_name": "供应链协同平台（Angular、zorro）",
+      "project_time": "2018.01 - 2018.12",
+      "project_desc": "SCM 系统集运营、任务、异常、承运商、客户、费用等供应链上下游体系模块于一身的协同平台，满足公司内部及城市经理的日常工作需要，减少内部间沟通成本、责任问题和人工操作成本，提高订单在供应链流转效率及运营规划等",
+      "project_content": "1. 负责开单、批量开单、任务流、费用等核心模块开发； 2. 前端组做基础建设工程，如：代码风格、代码规范、提交规范，CI/CD 脚本的编写"
+    },
+    {
+      "project_name": "新家装通 APP（Angular、Ioni2c、Cordova）",
+      "project_time": "2017.10 - 2018.01",
+      "project_desc": "基于 hybrid 开发的师傅端 APP，接收订单、预约、查看、签收、反馈等功能，提高师傅接单积极性，提高师傅团队的整体效率",
+      "project_content": "1. 负责多任务页面编写及部分组件开发和安卓打包工作； 2. 熟练掌握 ionic 父子组件通信、生命周期完成复杂组件开发"
+    }
+  ],
+  "workList": [
+    {
+      "work_name": "rh.js",
+      "work_desc": "前端脚手架工具",
+      "visit_link": "https://github.com/RootLinkFE/rh.js"
+    },
+    {
+      "work_name": "mibo",
+      "work_desc": "web 制作的个人简历",
+      "visit_link": "https://mbio.gymsummer.com/mbio",
+      "dataIndex": 1
+    }
+  ],
+  "aboutme": {
+    "aboutme_desc": "团队协作能力，项目上参与产研调研，把控前端项目进度，工作流程清晰\n善于沟通表达，在团队组织并主导技术分享\n关注新技术及感兴趣新鲜事物"
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}
